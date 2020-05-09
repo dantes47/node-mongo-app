@@ -1,0 +1,25 @@
+<h2>Page Testing..</h2>
+
+{{#if app.length }}
+
+<ul>
+	{{#each app}}
+		<li class="app">
+			<label> 
+				{{#if completed}}
+					<input="checkbox" checked>
+					<span class="completed">{{title}}</span>
+				{{else}}
+					<input="checkbox">
+					<span>{{title}}</span>
+				{{/if}}
+				
+				<button class="btn btn-small">Save</button>
+			</label>
+		</li>
+	{{/each}}
+</ul>
+
+{{else}}
+<p>We have nothing..</p>
+{{/if}}

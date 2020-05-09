@@ -1,0 +1,25 @@
+{
+  "name": "mongo-app",
+  "version": "1.0.0",
+  "description": "node-with-mongo-app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "author": "<Danny dantes817@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "handlebars": "^4.7.6",
+    "mongoose": "^5.9.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}

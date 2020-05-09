@@ -1,0 +1,21 @@
+  <nav class="orange darken-4">
+    <div class="main-wrapper">
+        <div class="container">
+          <a href="/" class="brand-logo">App</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            
+            {{#if isIndex }}
+            <li class="active"><a href="/">Main</a></li>
+            {{ else }}
+            <li><a href="/">Main</a></li>
+            {{/if }}
+
+            {{#if isNew }}
+            <li class="active"><a href="/new">New</a></li>
+            {{ else }}
+            <li><a href="/new">New</a></li>
+            {{/if }}
+          </ul>
+        </div>
+    </div>
+  </nav>

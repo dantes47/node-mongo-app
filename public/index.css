@@ -1,0 +1,22 @@
+.app {
+	margin-bottom: 1rem;
+}
+
+.app span.completed {
+	text-decoration: line-through;
+}
+
+.app label {
+	width: 100%;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+	background: mistyRose;
+	padding: 1.5rem;
+}
+
+.app i {
+	z-index: 3;
+}
